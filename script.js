@@ -3,13 +3,13 @@ const container = document.getElementById("container");
 function createGrid(size) {
   container.innerHTML = "";
 
-  const squareSize = 750 / size;
+  const squareSize = 100 / size;
 
   for (let i = 0; i < size * size; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
-    square.style.width = squareSize + "px";
-    square.style.height = squareSize + "px";
+    square.style.width = squareSize + "%";
+    square.style.height = squareSize + "%";
     square.dataset.darkness = 0;
 
     square.addEventListener("mouseover", function () {
