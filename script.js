@@ -33,4 +33,17 @@ function createGrid(size) {
   }
 }
 
+const sizeButton = document.getElementById("SizeButton");
+
+sizeButton.addEventListener("click", function () {
+  const input = prompt("Enter grid size (1 to 100):");
+  const size = parseInt(input);
+
+  if (isNaN(size) || size < 1 || size > 100) {
+    alert("Please enter a number between 1 and 100.");
+  } else {
+    createGrid(size);
+  }
+});
+
 createGrid(16);
