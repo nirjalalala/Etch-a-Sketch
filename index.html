@@ -8,7 +8,10 @@
   </head>
   <body>
     <h1>Etch-a-Sketch</h1>
-    <button id="SizeButton">Enter Size</button>
+    <div class="controls">
+      <input type="number" id="sizeInput" min="1" max="100" value="16" />
+      <button id="SizeButton">Set Size</button>
+    </div>
     <div id="container"></div>
     <script src="script.js"></script>
   </body>

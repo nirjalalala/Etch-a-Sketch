@@ -12,10 +12,23 @@ h1 {
   margin-bottom: 20px;
 }
 
-button {
-  width: 180px;
-  height: 60px;
+.controls {
+  display: flex;
+  gap: 10px;
   margin-bottom: 20px;
+}
+
+.controls input {
+  width: 80px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.controls button {
+  width: 120px;
+  height: 60px;
   cursor: pointer;
 }
 
