@@ -1,4 +1,4 @@
-# Etch-a-Sketch
+# [Etch-a-Sketch](https://nirjalalala.github.io/Etch-a-Sketch/) 
 
 A browser-based drawing pad inspired by the classic Etch-a-Sketch toy. You draw by moving your mouse over a grid of squares — each square picks up color and gets darker the more you hover over it.
 
@@ -116,3 +116,6 @@ open index.html          # macOS
 xdg-open index.html      # Linux
 start index.html         # Windows
 ```
+---
+
+[Click here to play](https://nirjalalala.github.io/Etch-a-Sketch/)
